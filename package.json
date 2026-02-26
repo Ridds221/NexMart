@@ -2,9 +2,10 @@
   "name": "nexmart",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main":"src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "",
@@ -27,5 +28,13 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ridds221/NexMart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ridds221/NexMart/issues"
+  },
+  "homepage": "https://github.com/Ridds221/NexMart#readme"
 }
